@@ -1,4 +1,6 @@
 import Accordion from './components/Accordion';
+import Tabs from './components/Tabs';
+import Dropdown from './components/Dropdown';
 
 function App() {
   const perguntas = [
@@ -26,6 +28,8 @@ function App() {
       <p>SINDADOS-BA</p>
       <h2>Dúvidas trabalhistas</h2>
       <Accordion perguntas={perguntas} />
+      <Tabs />
+      <Dropdown />
       <p className="aviso">Atividade acadêmica com informações de exemplo.</p>
     </main>
   );

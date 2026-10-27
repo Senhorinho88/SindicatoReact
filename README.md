@@ -1,6 +1,10 @@
 # Portal do Sindicato
 
-Primeira parte da atividade de React: acordeão de dúvidas trabalhistas.
+Atividade de React com três componentes simples:
+
+- Acordeão: abre uma resposta por vez usando `useState`.
+- Abas: troca entre Saúde e Farmácia, Educação e Cursos, Lazer e Férias.
+- Dropdown: seleciona documentos e fecha ao escolher uma opção ou clicar fora.
 
 ## Executar
 
@@ -9,15 +13,10 @@ npm install
 npm run dev
 ```
 
-No Codespaces, abra a porta **5173** na aba **Ports**. A configuração do ambiente também inicia o servidor automaticamente.
+No Codespaces, abra a porta **5173** na aba **Ports**. O ambiente também está configurado para iniciar o servidor automaticamente.
 
-## Como funciona
+Os componentes estão em `src/components` e são usados pelo `App.jsx`. Os dados podem ser enviados por props. O CSS usa apenas estilos básicos.
 
-- `App.jsx` contém as perguntas e passa os dados por props.
-- `components/Accordion.jsx` usa `useState` para guardar qual pergunta está aberta.
-- Ao clicar em outra pergunta, a anterior fecha. Clicar na pergunta aberta fecha a resposta.
-- `styles.css` contém o CSS da página.
-
-As respostas são exemplos para a atividade. Nesta etapa, o projeto contém somente o acordeão.
+As informações e os documentos são exemplos para a atividade.
 
 Para gerar a versão de produção: `npm run build`.
