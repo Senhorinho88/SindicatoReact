@@ -1,11 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background-color: #f0f7f2;
+  color: #243c2d;
 }
 
 .pagina {
   max-width: 700px;
   margin: auto;
+  background-color: white;
 }
 
 .item {
@@ -29,4 +32,14 @@ body {
 .resposta {
   margin: 0;
   padding: 10px;
+}
+
+h1, h2 {
+  color: #24623d;
+}
+
+button {
+  background-color: #dceedd;
+  color: #214c31;
+  border-color: #98baa3;
 }
