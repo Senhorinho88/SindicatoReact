@@ -1,38 +1,8 @@
-.tabs {
-  margin-top: 30px;
-}
-
-.tabs-botoes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-
 .tabs-botoes button {
-  padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #eee;
-  color: #333;
-  font: inherit;
-  cursor: pointer;
-}
-
-.tabs-botoes button:hover {
-  background-color: #dce6ef;
+  padding: 8px;
+  margin: 3px;
 }
 
 .tabs-botoes .tabs-ativa {
-  background-color: #204b72;
-  color: white;
-}
-
-.tabs-botoes button:focus-visible {
-  outline: 2px solid #204b72;
-  outline-offset: 2px;
-}
-
-.tabs-conteudo {
-  padding: 15px;
-  border: 1px solid #ccc;
-  line-height: 1.6;
+  background-color: #ccc;
 }
